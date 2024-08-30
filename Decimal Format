@@ -1,0 +1,12 @@
+import java.io.*;
+import java.text.DecimalFormat;
+public class Main{
+    public static void main(String args[]){
+        double x=123.4567;
+        System.out.printf("\nThe number is:%f\n",x);
+        DecimalFormat df=new DecimalFormat("####");
+        System.out.printf("Without fractional part the number is:"+df.format(x));
+        df=new DecimalFormat("#.##");
+        System.out.printf("\nFormatted number with precision is:",df.format(x));
+    }
+}
