@@ -1,0 +1,10 @@
+double value1 = 88;
+    double value2 = 25.0;
+    double value3 = -16;
+    double value4 = 0.0;
+    System.out.println(Math.sqrt(value1));
+    System.out.println(Math.sqrt(value2));
+    System.out.println(Math.sqrt(value3));
+    System.out.println(Math.sqrt(value4));
+  }
+}
