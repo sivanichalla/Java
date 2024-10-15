@@ -1,0 +1,19 @@
+import java.io.*;
+import java.util.*;
+class Circle{
+    double r;
+    double area(){
+        return(22/7.0)*r*r;
+    }
+}
+    public class Main{
+        public static void main(String args[]){
+        Circle C1=new Circle();
+        Circle C2=new Circle();
+        C1.r=5.5;
+        System.out.println("Area of circle with radius"+C1.r+"is:"+C1.area());
+        C2.r=7.5;
+                System.out.println("Area of circle with radius"+C2.r+"is:"+C2.area());
+       
+    }
+}
